@@ -161,6 +161,10 @@ header.sticky .Réseaux{
   filter: invert(100);
 }
 
+header .Réseaux{
+  filter: invert(100);
+}
+
 .invis{
   display: none;
 }
