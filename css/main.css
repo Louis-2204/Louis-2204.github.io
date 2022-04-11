@@ -73,7 +73,7 @@ label, #toggle
         right: 6%;
     }
   
-    #toggle:checked + nav {
+    #toggle:checked + nav ul li {
         display: list-item;
     }
 }
