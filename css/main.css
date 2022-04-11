@@ -69,6 +69,7 @@ label, #toggle
         font-size: 40px;
         color: white;
         cursor: pointer;
+        position:fixed;
     }
   
     #toggle:checked + nav {
