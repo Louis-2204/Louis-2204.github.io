@@ -48,13 +48,16 @@ label, #toggle
   
     header nav 
     {
-        left:-100%;
+        display: none;
+        flex-direction: column;
+        background: #48435C;
         height: 220px;
     }
    
     header nav ul 
     {
-        width: 50%;
+        left:-100%;
+        height: 220px;
     }
  
     label 
