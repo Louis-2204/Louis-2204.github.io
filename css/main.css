@@ -40,12 +40,12 @@ label
  
 @media all and (max-width: 991px)
 {
-    nav
+    header
     {
         height: 60px;
     }
  
-    nav .main_pages 
+    header nav .primary-navigation 
     {
         display: none;
     }
