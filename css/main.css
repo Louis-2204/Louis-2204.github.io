@@ -40,10 +40,6 @@ label, #toggle
  
 @media all and (max-width: 970px)
 {
-    header
-    {
-        height: 60px;
-    }
  
     header nav 
     {
