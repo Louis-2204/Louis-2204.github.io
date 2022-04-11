@@ -13,6 +13,7 @@ html{
 body{
   background: white;
   min-height: 150vh;
+  min-width: 10vh;
   margin: 50px;
   margin-left: 200px;
   margin-right: 200px;
