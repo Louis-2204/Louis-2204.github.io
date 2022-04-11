@@ -36,7 +36,6 @@ body{
 label, #toggle
 {
     display: none;
-    margin-right:10px;
 }
  
 @media all and (max-width: 991px)
@@ -70,6 +69,7 @@ label, #toggle
         color: white;
         cursor: pointer;
         position:fixed;
+        margin-right:20px;
     }
   
     #toggle:checked + nav {
