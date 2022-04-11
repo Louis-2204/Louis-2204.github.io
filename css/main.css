@@ -38,7 +38,7 @@ label, #toggle
     display: none;
 }
  
-@media all and (max-width: 991px)
+@media all and (max-width: 970px)
 {
     header
     {
