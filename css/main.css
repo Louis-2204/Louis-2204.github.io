@@ -69,8 +69,8 @@ label, #toggle
         color: white;
         cursor: pointer;
         position:absolute;
-        top:50%;
-        right: 10%;
+        top:30%;
+        right: 6%;
     }
   
     #toggle:checked + nav {
