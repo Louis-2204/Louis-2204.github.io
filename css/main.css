@@ -68,7 +68,7 @@ label, #toggle
         font-size: 40px;
         color: white;
         cursor: pointer;
-        margin-right:20px;
+        margin-right:-100px;
     }
   
     #toggle:checked + nav {
