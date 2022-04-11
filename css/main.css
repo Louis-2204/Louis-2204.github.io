@@ -45,7 +45,7 @@ label
         height: 60px;
     }
  
-    header nav .primary-navigation 
+    header nav ul 
     {
         display: none;
     }
