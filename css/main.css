@@ -51,7 +51,7 @@ label, #toggle
         display: none;
         flex-direction: column;
         background: #48435C;
-        height: 220px;
+        top: 0px;
     }
    
     header nav ul 
@@ -76,6 +76,45 @@ label, #toggle
   
     #toggle:checked + nav {
         display: flex;
+        min-height:300px;
+        min-width:100%;
+        top:80px;
+      left:0;
+        position:absolute;        
+    }
+    #toggle:checked + nav a.Accueil{
+       flex-direction:column; 
+       position:absolute;
+      top:0px;
+    }
+  #toggle:checked + nav a.A_Propos{
+       flex-direction:column; 
+       position:absolute;
+       width:50px;
+       top:40px;
+    }
+  #toggle:checked + nav a.E4{
+       flex-direction:column; 
+       position:absolute;
+      top:80px;
+    left:-30px;
+    }
+  #toggle:checked + nav a.E5{
+       flex-direction:column; 
+       position:absolute;
+      top:120px;
+    }
+  #toggle:checked + nav a.Veille{
+       flex-direction:column; 
+       position:absolute;
+      top:160px;
+    left:-60px;
+    }
+  #toggle:checked + nav a.Contact{
+       flex-direction:column; 
+       position:absolute;
+      top:210px;
+    left:-60px;
     }
 }
 
