@@ -33,7 +33,7 @@ body{
   padding-top: 1.5px;
 }
 
-label
+label, #toggle
 {
     display: none;
 }
@@ -45,9 +45,17 @@ label
         height: 60px;
     }
  
-    header nav ul 
+    header nav 
     {
         display: none;
+        flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+  
+    header nav ul 
+    {
+        width: 50%;
     }
  
     label 
@@ -60,6 +68,10 @@ label
         font-size: 40px;
         color: white;
         cursor: pointer;
+    }
+  
+    #toggle:checked + nav {
+        display: flex;
     }
 }
 
