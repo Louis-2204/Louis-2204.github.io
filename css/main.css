@@ -40,12 +40,16 @@ label, #toggle
  
 @media all and (max-width: 970px)
 {
- 
+    
+    header 
+    {
+        height: 60px;
+    }
+  
     header nav 
     {
-        display: none;
+        right:0;
         flex-direction: column;
-        background: #48435C;
         height: 220px;
     }
    
@@ -70,7 +74,8 @@ label, #toggle
     }
   
     #toggle:checked + nav {
-        display: flex;
+        left:0;
+        top:220px;
     }
 }
 
