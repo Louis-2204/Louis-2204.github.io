@@ -40,6 +40,13 @@ label, #toggle
  
 @media all and (max-width: 1050px)
 {
+    iframe{
+      display:none;
+    }
+
+    .iframe_phone{
+      display:block;
+    }
     
     header 
     {
