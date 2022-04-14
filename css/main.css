@@ -82,15 +82,6 @@ label, #toggle
       left:0;
         position:absolute;
       
-    #toggle:checked + nav.sticky {
-        display: flex;
-        min-height:300px;
-        min-width:100%;
-        top:60px;
-      left:0;
-        position:absolute;      
-      
-    }
     #toggle:checked + nav a.Accueil{
        flex-direction:column; 
        position:absolute;
@@ -121,6 +112,51 @@ label, #toggle
     left:-60px;
     }
   #toggle:checked + nav a.Contact{
+       flex-direction:column; 
+       position:absolute;
+      top:210px;
+    left:-60px;
+    }
+      
+    #toggle:checked + nav.sticky {
+        display: flex;
+        min-height:300px;
+        min-width:100%;
+        top:60px;
+        left:0;
+        position:absolute; 
+    }
+      
+    #toggle:checked + nav.sticky a.Accueil{
+       flex-direction:column; 
+       position:absolute;
+      top:0px;
+    }
+  #toggle:checked + nav.sticky a.A_Propos{
+       flex-direction:column; 
+       position:absolute;
+       width:50px;
+       top:40px;
+    }
+  #toggle:checked + nav.sticky a.E4{
+       flex-direction:column; 
+       position:absolute;
+      top:100px;
+    left:-30px;
+    }
+  #toggle:checked + nav.sticky a.E5{
+       flex-direction:column; 
+       position:absolute;
+      left:-60px;
+      top:120px;
+    }
+  #toggle:checked + nav.sticky a.Veille{
+       flex-direction:column; 
+       position:absolute;
+      top:160px;
+    left:-60px;
+    }
+  #toggle:checked + nav.sticky a.Contact{
        flex-direction:column; 
        position:absolute;
       top:210px;
