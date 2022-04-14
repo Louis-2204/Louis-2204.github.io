@@ -76,7 +76,7 @@ label, #toggle
   
     #toggle:checked + nav {
         display: flex;
-        min-height:300px;
+        min-height:300px; 
         min-width:100%;
         top:80px;
       left:0;
