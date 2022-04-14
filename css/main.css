@@ -80,7 +80,16 @@ label, #toggle
         min-width:100%;
         top:80px;
       left:0;
-        position:absolute;        
+        position:absolute;
+      
+    #toggle:checked + nav.sticky {
+        display: flex;
+        min-height:300px;
+        min-width:100%;
+        top:60px;
+      left:0;
+        position:absolute;      
+      
     }
     #toggle:checked + nav a.Accueil{
        flex-direction:column; 
