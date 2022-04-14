@@ -81,6 +81,7 @@ label, #toggle
         top:80px;
       left:0;
         position:absolute;
+  }
       
     #toggle:checked + nav a.Accueil{
        flex-direction:column; 
