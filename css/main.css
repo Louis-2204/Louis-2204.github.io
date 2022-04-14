@@ -72,6 +72,7 @@ label, #toggle
         position:absolute;
         top:9%;
         right: 6%;
+        user-select:none;
     }
   
     #toggle:checked + nav {
