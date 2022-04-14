@@ -274,7 +274,7 @@ header .Réseaux{
 }
 
 .Contact1, .mapouter{
-  display: inline-block;
+  display: block;
   padding: 50px;
 }
 
