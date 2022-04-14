@@ -109,6 +109,7 @@ label, #toggle
   #toggle:checked + nav a.Veille{
        flex-direction:column; 
        position:absolute;
+       width:200px;
       top:140px;
     left:-60px;
     }
