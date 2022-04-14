@@ -21,6 +21,10 @@ body{
   display: inherit;
 }
 
+.iframe_phone{
+  display:none;
+}
+
 .top{
   background-color: #2552a7;
   top:0;
