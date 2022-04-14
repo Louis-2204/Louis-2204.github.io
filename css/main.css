@@ -78,7 +78,7 @@ label, #toggle
         display: flex;
         min-height:220px; 
         min-width:100%;
-        top:80px;
+        top:60px;
       left:0;
         position:absolute;
   }
