@@ -15,8 +15,8 @@ body{
   min-height: 150vh;
   min-width: 500px;
   margin: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-bottom: 50px;
   display: inherit;
 }
