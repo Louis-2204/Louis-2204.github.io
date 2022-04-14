@@ -284,7 +284,7 @@ header .Réseaux{
 p{
   margin-left: 50px;
   margin-right: 50px;
-  font-size:min(max(12px, 2vw), 20px);
+  font-size:min(max(13px, 2vw), 20px);
 }
 
 .menu{
