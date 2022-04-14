@@ -44,7 +44,7 @@ label, #toggle
  
 @media all and (max-width: 1050px)
 {
-    iframe{
+    iframe, .CV{
       display:none;
     }
 
