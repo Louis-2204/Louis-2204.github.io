@@ -96,7 +96,7 @@ label, #toggle
   #toggle:checked + nav a.E4{
        flex-direction:column; 
        position:absolute;
-      top:80px;
+      top:100px;
     left:-30px;
     }
   #toggle:checked + nav a.E5{
