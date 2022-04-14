@@ -13,10 +13,10 @@ html{
 body{
   background: white;
   min-height: 150vh;
-  min-width: 70%;
+  min-width: 80%;
   margin: 50px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-bottom: 50px;
   display: inherit;
 }
