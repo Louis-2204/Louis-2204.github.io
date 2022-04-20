@@ -21,6 +21,10 @@ body{
   display: inherit;
 }
 
+.red{
+  color = red;
+}
+
 .iframe_phone{
   display:none;
 }
