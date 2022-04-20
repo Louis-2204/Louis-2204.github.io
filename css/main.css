@@ -64,6 +64,7 @@ label, #toggle
     header nav 
     {
         display: none;
+        align-items:center;
         flex-direction: column;
         background: #48435C;
         top: 0px;
