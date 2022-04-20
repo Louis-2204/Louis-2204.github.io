@@ -302,6 +302,7 @@ header .Réseaux{
 
 .margin-list{
   margin-left: 100px;
+  font-size:min(max(13px, 2vw), 20px);
 }
 
 .underline{
