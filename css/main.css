@@ -69,6 +69,13 @@ body{
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
+button{
+  height:100px;
+  width:100px;
+  border:solid;
+  border-radius:20px;
+}
+
 .red{
   color : red;
   font-weight: bold;
